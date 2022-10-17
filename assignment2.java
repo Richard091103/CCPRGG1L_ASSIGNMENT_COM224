@@ -17,10 +17,11 @@ public class App {
 
         // Act 2 - Print MIDDLE NAME 4 times using Do-While loop
         
+        int count2 = 0;
         do {
             System.out.println("VALERIANO");
-            count++;
-        } while (count != 4);
+            count2++;
+        } while (count2 <= 4);
 
         // Act 3 - Print SURNAME 5 times using for loop
         
