@@ -12,7 +12,7 @@ public class App {
         int i = 1;
         
         while (count != 3) {
-            System.out.println("(" + i + ".) RICHARD JEFFERSON");
+            System.out.println("(" + i + ") RICHARD JEFFERSON");
             count++;
             i++;
         }
@@ -24,7 +24,7 @@ public class App {
         int count2 = 0;
         int y = 1;
         do {
-            System.out.println("(" + y + ".) VALERIANO");
+            System.out.println("(" + y + ") VALERIANO");
             count2++;
             y++;
         } while (count2 < 4);
@@ -35,7 +35,7 @@ public class App {
         
         int a = 1;
         for (count = 0; count < 5; count++) {
-            System.out.println("(" + a + ".) MENESES");
+            System.out.println("(" + a + ") MENESES");
             a++;
         }
 
@@ -69,4 +69,6 @@ public class App {
         // Close Scanner
         scan.close();
     }
+
+
 }
