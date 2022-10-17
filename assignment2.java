@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class App {
 
-    static Scanner scan = new Scanner(System.in);
-
     public static void main(String[] args) throws Exception {
 
         // Act 1 - Print FIRST NAME 3 times using while loop
@@ -65,9 +63,7 @@ public class App {
         for (int x = ini.length - 1; x >= 0; x--) {
             System.out.print(ini[x]);
         }
-        
-        // Close Scanner
-        scan.close();
+      
     }
 
 
